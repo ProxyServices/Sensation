@@ -92,7 +92,7 @@ font-family: 'Open Sans', sans-serif;
 /*************************
    Text color
 *************************/
-.text-blue { color: #3B5998; }
+.text-blue { color: #f3831a; }
 .text-red { color: #CB2027 ;}
 .text-white { color: #FFFFFF ;}
 .text-black { color: #363636; }
@@ -101,15 +101,15 @@ font-family: 'Open Sans', sans-serif;
 .text-white h1, .text-white p, .text-white h2{ color: #fff; }
 .text-white { color: #fff; }
 .text-black { color: #363636 ;}
-.text-green { color: #3452ff ;}
+.text-green { color: #f3831a ;}
 .text-theme { color: #f10; }
 
 /*colored background*/
  .white-bg { background: #FFFFFF !important; }
  .gray-bg { background: #F8F8F8 !important; }
  .gray-bg-1 { background: #CD2735 !important; }
- .blue-bg { background: #3452ff !important; }
- .blue-bg-1 { background: #8D2BE2 !important; }
+ .blue-bg { background: #f3831a !important; }
+ .blue-bg-1 { background: #f3831a !important; }
  .green-bg { background: #00FF00 !important; }
  .green-bg-1 { background: #FF8000 !important; }
  .black-bg { background: #171717 !important; }
@@ -416,7 +416,7 @@ font-family: 'Open Sans', sans-serif;
   text-align: center;
   transition: all 0.3s ease 0s;
 }
-.header-icon a:hover{color:#3452ff;}
+.header-icon a:hover{color:#f3831a;}
 .top-right{}
 .top-right li {
   border-right: 1px solid #444444;
@@ -464,7 +464,7 @@ font-family: 'Open Sans', sans-serif;
 }
 .main-menu ul li:last-child a{padding-right:0;} 
 .main-menu ul li:hover > a, .main-menu ul li.active > a {
-  color: #3452ff;
+  color: #f3831a;
 }
 .main-menu ul li a i {
   margin-left: 3px;
@@ -495,7 +495,7 @@ font-family: 'Open Sans', sans-serif;
   text-transform: capitalize;
 }
 .main-menu ul li ul.submenu li a:hover {
-  background: #3452ff none repeat scroll 0 0;
+  background: #f3831a none repeat scroll 0 0;
   color: #ffffff;
 }
 
@@ -538,13 +538,13 @@ font-family: 'Open Sans', sans-serif;
   transition: all 0.3s ease 0s;
 }
 .slider-text a.active {
-  background: #3452ff none repeat scroll 0 0;
-  border-color: #3452ff;
+  background: #f3831a none repeat scroll 0 0;
+  border-color: #f3841a;
   color: #ffffff;
 }
 .slider-text a.active:hover{background:#333333;border-color:#333333;}
 .slider-active .owl-nav div {
-  background: #3452ff none repeat scroll 0 0;
+  background: #f3831a none repeat scroll 0 0;
   border-radius: 50%;
   color: #ffffff;
   font-size: 37px;
@@ -612,7 +612,7 @@ font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
 }
 .section-title h2::before {
-  background: #3452ff;
+  background: #f3831a;
   bottom: 0;
   content: "";
   height: 1px;
@@ -663,9 +663,9 @@ font-family: 'Open Sans', sans-serif;
   margin-bottom: 40px;
 }
 .portfolio-filter li.filter.active {
-  background: #3452ff;
+  background: #f3831a;
   color: #fff;
-  border-color:#3452ff;
+  border-color:#f3831a;
 }
 .portfolio-filter li {
   border: 1px solid #dddddd;
@@ -680,7 +680,7 @@ font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out 0s;
 }
-.portfolio-filter li:hover{background:#3452ff;color:#fff;border-color:#3452ff;}
+.portfolio-filter li:hover{background:#f3831a;color:#fff;border-color:#f3831a;}
 .single-portfolio {
   position: relative;
 }
@@ -690,7 +690,7 @@ font-family: 'Open Sans', sans-serif;
   position: relative;
 }
 .portfolio-img a::before {
-  background: #3452ff none repeat scroll 0 0;
+  background: #f3831a none repeat scroll 0 0;
   bottom: 0;
   content: "";
   left: 0;
@@ -714,7 +714,7 @@ font-family: 'Open Sans', sans-serif;
 .portfolio-icon{}
 .portfolio-icon i {
   background: #fff none repeat scroll 0 0;
-  color: #3452ff;
+  color: #f3831a;
   display: inline-block;
   height: 40px;
   line-height: 40px;
@@ -725,7 +725,7 @@ font-family: 'Open Sans', sans-serif;
   opacity:0;
   transition:.3s;
 }
-.portfolio-icon i:hover{background: #3452ff;color:#fff}
+.portfolio-icon i:hover{background: #f3831a;color:#fff}
 .single-portfolio:hover .portfolio-icon i{opacity:1;}
 #Container .mix{display:none}
 /* 7. service-area */
@@ -737,7 +737,7 @@ font-family: 'Open Sans', sans-serif;
 .service-icon i {
   background: #eee none repeat scroll 0 0;
   border-radius: 50%;
-  color: #3452ff;
+  color: #f3831a;
   font-size: 30px;
   height: 95px;
   line-height: 95px;
@@ -745,7 +745,7 @@ font-family: 'Open Sans', sans-serif;
   width: 95px;
 }
 .single-service:hover .service-icon i{
-  background: #3452ff none repeat scroll 0 0;
+  background: #f3831a none repeat scroll 0 0;
   color: #fff;
   transform: rotate(360deg) scale(1);
 }
@@ -868,7 +868,7 @@ label {
   padding: 5px 10px;
   transition: all 0.3s ease 0s;
 }
-.tagcloud > a:hover{background:#3452ff;color:#fff;}
+.tagcloud > a:hover{background:#f3831a;color:#fff;}
 .Flickr-list {
   margin: 0 -3px;
   overflow: hidden;
@@ -899,7 +899,7 @@ label {
   color: hsl(0, 0%, 60%);
   transition:.3s;
 }
-.social-icons.text-center > a:hover{color:#3452ff;}
+.social-icons.text-center > a:hover{color:#f3831a;}
 .copyright.text-center > p {
   color: hsl(0, 0%, 60%);
   display: inline-block;
@@ -916,7 +916,7 @@ label {
   border: 1px solid #dddddd;
   transition: all 0.3s ease 0s;
 }
-.brand-img:hover{border-color:#3452ff;}
+.brand-img:hover{border-color:#f3831a;}
 .brand-active.owl-carousel .owl-item img {
   display: inline-block;
   width: inherit;
@@ -933,7 +933,7 @@ label {
   text-transform: uppercase;
 }
 .breadcrumb-menu ul li {
-  color: #3452ff;
+  color: #f3831a;
   display: inline-block;
   font-size: 13px;
   padding: 0 5px;
@@ -967,7 +967,7 @@ label {
   font-weight: 400;
 }
 .middle-text > a {
-  color: #3452ff;
+  color: #f3831a;
   font-size: 14px;
 }
 #map{height:300px;width:100%}
@@ -999,7 +999,7 @@ label {
   text-transform: capitalize;
 }
 .btn {
-  background: #3452FF;
+  background: #f3831a;
   border-radius: 0;
   color: hsl(0, 0%, 100%);
   display: inline-block;
@@ -1051,8 +1051,8 @@ form#search input {
   width: 100%;
 }
 form#search button {
-  background: #3452ff;
-  border: 2px solid #3452ff;
+  background: #f3831a;
+  border: 2px solid #f3831a;
   color: hsl(0, 0%, 100%);
   font-weight: 700;
   height: 39px;
@@ -1077,7 +1077,7 @@ form#search button {
 }
 .list-item li:last-child{border-bottom:0;}
 .list-item li a{color:hsl(0, 0%, 20%)}
-.list-item li a:hover{color:#3452FF}
+.list-item li a:hover{color:#f3831a}
 .post-list{}
 .post-list li {
   margin-bottom: 16px;
@@ -1108,7 +1108,7 @@ form#search button {
   color: hsl(0, 0%, 0%);
   transition:.3s;
 }
-.post-list a:hover{color:#3452ff;}
+.post-list a:hover{color:#f3831a;}
 .Tagcloud li {
   display: inline-block;
 }
@@ -1122,7 +1122,7 @@ form#search button {
   text-transform: capitalize;
   transition: all 0.3s ease 0s;
 }
-.Tagcloud li a:hover{background:#3452ff;color:#fff;}
+.Tagcloud li a:hover{background:#f3831a;color:#fff;}
 .blog-wrapper {}
 .blog-media {
   position: relative;
@@ -1143,7 +1143,7 @@ form#search button {
   margin-bottom: 10px;
 }
 .post-title a{transition:.3s;}
-.post-title a:hover{color:#3452ff;}
+.post-title a:hover{color:#f3831a;}
 .post-meta {
   margin-bottom: 25px;
 }
@@ -1163,7 +1163,7 @@ form#search button {
   display: none;
 }
 .post-meta li a {
-  color: #3452ff;
+  color: #f3831a;
   transition: all 0.3s ease 0s;
 }
 .post-content > p {
@@ -1173,7 +1173,7 @@ form#search button {
    color: hsl(0, 0%, 40%);
 }
 .more {
-  color: #3452ff;
+  color: #f3831a;
   cursor: pointer;
   font-size: 14px;
   font-weight: 700;
@@ -1198,7 +1198,7 @@ form#search button {
   width: 100%;
 }
 .bottom-border::after {
-  border-bottom: 2px solid #3452FF;
+  border-bottom: 2px solid #f3831a;
   content: "";
   display: block;
   margin: 20px auto 30px 0;
@@ -1254,7 +1254,7 @@ form#search button {
   font-weight: 400;
 }
 .progress-bar {
-  background-color: #3452FF;
+  background-color: #f3831a;
   box-shadow: none;
 }
 .progress {
@@ -1277,7 +1277,7 @@ form#search button {
   position: relative;
 }
 .team-img a::before {
-  background: #3452ff none repeat scroll 0 0;
+  background: #f3831a none repeat scroll 0 0;
   content: "";
   height: 100%;
   left: 0;
@@ -1351,7 +1351,7 @@ form#search button {
 .price-plan {
   background: #ffffff none repeat scroll 0 0;
   padding: 10px;
-  color: #3452ff;
+  color: #f3831a;
 }
 .price {
   font-size: 45px;
@@ -1367,7 +1367,7 @@ form#search button {
   padding: 10px 5px;
 }
 .sign {
-  background: #3452ff none repeat scroll 0 0;
+  background: #f3831a none repeat scroll 0 0;
   color: #ffffff;
   display: block;
   padding: 12px 8px;
@@ -1375,7 +1375,7 @@ form#search button {
   transition: all 0.3s ease 0s;
 }
 .sign i {
-  color: #3452ff;
+  color: #f3831a;
   margin-left: -14px;
     transition: all 0.3s ease-in-out 0s;
 }
