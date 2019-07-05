@@ -75,11 +75,11 @@ body {color:#444;
 font-family: 'Open Sans', sans-serif;
 }
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #f3831a;
     text-shadow: none;
 }
 ::selection {
-    background: #b3d4fc;
+    background: #f3831a;
     text-shadow: none;
 }
 .browserupgrade {
@@ -113,7 +113,7 @@ font-family: 'Open Sans', sans-serif;
  .green-bg { background: #00FF00 !important; }
  .green-bg-1 { background: #FF8000 !important; }
  .black-bg { background: #171717 !important; }
- .default-bg { background: #50C1F0 !important; }
+ .default-bg { background: #f3831a !important; }
  .transparent-bg { background: transparent !important; }
  .maroon-bg{background: #811D15 !important;811D15}
 
@@ -444,7 +444,7 @@ font-family: 'Open Sans', sans-serif;
 /* main-menu-area */
 .main-menu-area{}
 .logo {
-  margin-top: 30px;
+  margin-top: 30x;
 }
 .main-menu{}
 .main-menu ul{}
@@ -630,14 +630,14 @@ font-family: 'Open Sans', sans-serif;
 /* 5. counter-area */
 .counter-area{}
 .single-counter {
-  background: #292e47 none repeat scroll 0 0;
+  background: #f3831a none repeat scroll 0 0;
   float: left;
   padding-bottom: 90px;
   padding-top: 90px;
   width: 25%;
 }
 .single-counter:nth-child(2n) {
-  background: #24283F none repeat scroll 0 0;
+  background: rgb(236, 150, 129) none repeat scroll 0 0;
 }
 .counter-text {
   text-align: center;
@@ -923,8 +923,9 @@ label {
 }
 /* breadcrumb-area */
 .bg-color {
-  background: hsl(0, 0%, 97%) none repeat scroll 0 0;
+  background: hsl(9, 89%, 78%) none repeat scroll 0 0;
 }
+
 .breadcrumb-title h1 {
   font-size: 20px;
   font-weight: 700;
